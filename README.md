@@ -1,10 +1,8 @@
-Here is a **ready-to-submit `README.md`**, written exactly to match the **problem statement requirements**.
 
-You can copy & paste this directly into your project.
 
 ---
 
-# 📘 **README.md — Website Analytics Backend System**
+# 📘 **Website Analytics Backend System**
 
 ## 📌 **1. Overview**
 
@@ -117,16 +115,11 @@ Redis & MongoDB can be local installations or Docker containers.
 
 ---
 
-## 1️⃣ **Clone or download project**
 
-```
-git clone <your-repo-url>
-cd analytics-system
-```
-
+ 
 ---
 
-## 2️⃣ **Install dependencies for each service**
+## 1️⃣ **Install dependencies for each service**
 
 ### Ingestion API
 
@@ -151,7 +144,7 @@ npm install
 
 ---
 
-## 3️⃣ **Start Redis**
+##  2️⃣**Start Redis**
 
 Docker:
 
@@ -167,7 +160,8 @@ redis-server
 
 ---
 
-## 4️⃣ **Start MongoDB**
+
+##  3️⃣**Start MongoDB**
 
 Docker:
 
@@ -183,7 +177,8 @@ mongod
 
 ---
 
-## 5️⃣ **Start Each Service**
+
+## 4️⃣**Start Each Service**
 
 ### Start Processor (must run FIRST)
 
